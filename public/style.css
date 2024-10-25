@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #A7B6BC; /* Fallback color */
+  color: whitesmoke;
+  display: flex; /* Enable Flexbox for vertical and horizontal centering */
+  justify-content: center; /* Center children horizontally */
+  align-items: center; /* Center children vertically */
+  height: 100vh; /* Full height of the viewport */
+}
+
+#todo-container {
+  background-image: url('images/todo-bg.gif'); /* Replace with your to-do list background image */
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  height: 100vh;
+  display: flex; /* Enable Flexbox */
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center children vertically */
+  align-items: center; /* Center children horizontally */
+  text-align: center; /* Center text */
+}
+
+#todo-container h1, #todo-container h2 {
+  color: #267d29; /* Change heading color to #267d29 */
+}
+
+#todo-container ul {
+  list-style: none; /* Remove default bullet points */
+  padding: 0; /* Remove padding */
+}
+
+#todo-container li {
+  color: black; /* Set task text color to black */
+  margin: 5px 0; /* Add some margin for spacing */
+}
+
+#meditate-container {
+  background-image: url('images/meditate-bg.gif'); /* Replace with your meditation page background image */
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  height: 100vh;
+  display: flex; /* Enable Flexbox */
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center children vertically */
+  align-items: center; /* Center children horizontally */
+  text-align: center; /* Center text */
+}
+
+.front-page {
+  background-image: url('images/background.gif'); /* Replace with your front page background image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex; /* Enable Flexbox */
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center children vertically */
+  align-items: center; /* Center children horizontally */
+  text-align: center; /* Center text */
+  padding: 20px;
+}
+
+.hidden {
+  display: none; /* Hide elements */
+}
+
+.completed {
+  text-decoration: line-through;
+  color: black;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+  background-color: #4CAF50; /* Example button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+h1, h2 {
+  margin: 10px 0;
+}
